@@ -7,9 +7,9 @@ Oracle Cloud Infrastructure (OCI) is a platform of cloud services that enable yo
 
 # Prerequisites
 -An OCI tenancy
-- Permission to `manage` the following  resources in your Oracle Cloud Infrastructure tenancy: `Vcn`, `Streaming`, `Object storage`, `Functions`, `Serviceconnectors`, `Data Flow`, and `Events`.
+- Permission to `manage` the following  resources in your Oracle Cloud Infrastructure tenancy: `Vcn`, `Streaming`, `Object storage`, `Serviceconnectors`, and `Data Flow`.
 
-- Quota to create the following resources: 1 VCN, 1 subnets, 1 streaming, 1 events, 2 function, 2 service connector, 2 buckets.
+- Quota to create the following resources: 1 VCN, 1 subnets, 1 streaming, 1 events, 1 service connector, 3 buckets.
 
 If you don't have the required permissions and quota, contact your tenancy administrator. See [Policy Reference](https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Reference/policyreference.htm), [Service Limits](https://docs.cloud.oracle.com/en-us/iaas/Content/General/Concepts/servicelimits.htm), [Compartment Quotas](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcequotas.htm).
 
@@ -17,9 +17,8 @@ If you don't have the required permissions and quota, contact your tenancy admin
 * OCI Streaming
 * OCI Service Connector Hub
 * OCI Object Storage
-* Oci Functions
 * OCI Data Flow
-* OCI Events
+* OCI Data Integration
 
 # Documentation
 You can find the documentation of the OCI services at https://docs.oracle.com/en-us/iaas/Content/home.html
