@@ -48,7 +48,7 @@ You can find the documentation of the OCI services at https://docs.oracle.com/en
 ### Clone the Module
 Now, you'll want a local copy of this repo. You can make that with the commands:
 
-    git clone https://github.com/oracle-devrel/terraform-oci-arch-fn-app.git
+    git clone https://github.com/Thunderboltsmvp/Anomalous-Trade-Detection-OCI
     cd terraform-oci-arch-fn-app
     ls
 
@@ -72,7 +72,7 @@ exit
   
 ### Set Up and Configure Terraform
 
-1. Complete the prerequisites described [here](https://github.com/cloud-partners/oci-prerequisites).
+1. Complete the prerequisites described [here](https://github.com/Thunderboltsmvp/Anomalous-Trade-Detection-OCI).
 
 2. Create a `terraform.tfvars` file, and specify the following variables:
 
