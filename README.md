@@ -25,7 +25,7 @@ You can find the documentation of the OCI services at https://docs.oracle.com/en
 
 ## Deploy Using Oracle Resource Manager
 
-1. Click [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?region=home&zipUrl=https://github.com/oracle-devrel/terraform-oci-arch-fn-app/releases/latest/download/terraform-oci-arch-fn-app-stack-latest.zip)
+1. Click [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?region=home&zipUrl=https://github.com/Thunderboltsmvp/Anomalous-Trade-Detection-OCI)
 
     If you aren't already signed in, when prompted, enter the tenancy and user credentials.
 
@@ -49,7 +49,7 @@ You can find the documentation of the OCI services at https://docs.oracle.com/en
 Now, you'll want a local copy of this repo. You can make that with the commands:
 
     git clone https://github.com/Thunderboltsmvp/Anomalous-Trade-Detection-OCI
-    cd terraform-oci-arch-fn-app
+    cd Anomalous-Trade-Detection-OCI
     ls
 
 ### Prerequisites
@@ -123,7 +123,7 @@ You can utilize this repository as remote module, providing the necessary inputs
 
 ```
 module "oci-arch-fn-app" {
-  source             = "github.com/oracle-devrel/terraform-oci-arch-fn-app"
+  source             = "github.com/Thunderboltsmvp/Anomalous-Trade-Detection-OCI"
   tenancy_ocid       = "<tenancy_ocid>"
   user_ocid          = "<user_ocid>"
   fingerprint        = "<user_ocid>"
