@@ -1,0 +1,9 @@
+Trade_Processing_Df
+Input Params
+--raw-stream Trade_stream --bootstrap-server cell-1.streaming.us-phoenix-1.oci.oraclecloud.com --bootstrap-port 9092 --checkpoint-location oci://ratd_silver_bucket@apaciaas/Checkpoint --output-location oci://ratd_silver_bucket@apaciaas/Trade_Files_For_Processing --ocid ocid1.streampool.oc1.phx.amaaaaaapwxjxiqalvkq5ofneitmmhjmcc4ck5wtentuckeazjsbci4rrz4a --output-mode csv
+
+Archive URI
+oci://ratd_data_warehouse@apaciaas/RATD_Processing_Archive/archive.zip
+
+Dataflow logs
+oci://ratd_data_flow_logs@apaciaas/

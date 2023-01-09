@@ -1,0 +1,10 @@
+Trade_Detection_Df
+
+Input Params
+--output_path_gold_lake oci://ratd_gold_bucket@apaciaas/Wash_Trades --output_format csv --input_format csv --Files_For_Processing_Path Trade_Files_For_Processing --Files_After_Processing_Path Trade_Files_After_Processing --ratd_bucket ratd_silver_bucket --ratd_namespace apaciaas --FromEmail thunderbolt677@outlook.com --ToEmail thunderboltsmvp@gmail.com --FromEmailPwd Macnam007000
+
+Archive URI
+oci://ratd_data_warehouse@apaciaas/RATD_Detection_Archive/archive.zip
+
+Dataflow logs
+oci://ratd_data_flow_logs@apaciaas/
